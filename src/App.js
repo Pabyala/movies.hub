@@ -15,7 +15,7 @@ function App() {
         <Navbar/>
         <Container className='app-con'>
           <Routes>
-            <Route path='/trending' element={<Trending/>} exact/>
+            <Route path='/' element={<Trending/>} exact/>
             <Route path='/movies' element={<Movies/>}/>
             <Route path='/series' element={<TVSeries/>}/>
             <Route path='/search' element={<Search/>}/>

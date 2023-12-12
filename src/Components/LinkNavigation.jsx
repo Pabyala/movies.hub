@@ -21,7 +21,7 @@ export default function LinkNavigation() {
         <BottomNavigationAction 
           label="Trending"
           LinkComponent={Link}  
-          to='/trending'
+          to='/'
         />
         <BottomNavigationAction 
           label="Movies"  
