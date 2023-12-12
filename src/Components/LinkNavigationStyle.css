@@ -3,15 +3,15 @@
     background-color: transparent !important;
 }
 .css-qxh7fn{
-    display: flex;
-    align-items: center;
-    height: 2rem;
-    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    height: 2rem !important;
+    width: 100% !important;
 }   
 .css-imwso6-MuiBottomNavigationAction-label{
     font-family: 'Raleway', sans-serif !important;
     font-size: 1rem !important;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 .css-1bjk3jo-MuiButtonBase-root-MuiBottomNavigationAction-root{
     color: #ffff !important;
@@ -21,8 +21,8 @@
 }
 
 .css-16lloyr-MuiBottomNavigation-root{
-    width: 100%;
-    background-color: transparent;
+    width: 100% !important; 
+    background-color: transparent !important;
 }
 
 
