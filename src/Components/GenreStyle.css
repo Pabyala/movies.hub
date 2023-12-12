@@ -1,0 +1,8 @@
+.genre{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: .5rem;
+}
+.genre-chip{
+    margin: 0.125rem !important;
+}

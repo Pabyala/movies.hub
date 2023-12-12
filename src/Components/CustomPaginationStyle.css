@@ -1,0 +1,51 @@
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul.react-paginate {
+  padding: 1.5rem 0 .5rem 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  width: 100%;
+}
+ul.react-paginate .active{
+  color: #0091ff;
+}
+ul.react-paginate li a {
+  padding: 0.1rem 1rem;
+  cursor: pointer;
+  font-size: .9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+ul.react-paginate li.page-item a{
+  border-color: transparent;
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    ul.react-paginate li a {
+        padding: 0.1rem 1.1rem;
+        font-size: .9rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    ul.react-paginate li a {
+        padding: 0.1rem 1.1rem;
+        font-size: 1rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    ul.react-paginate li a {
+        padding: 0.1rem 1.2rem;
+        font-size: 1rem;
+    }
+}
+@media (min-width: 1200px){
+    ul.react-paginate li a {
+        padding: 0.1rem 1.2rem;
+        font-size: 1.1rem;
+    }
+}
+  

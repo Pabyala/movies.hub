@@ -1,0 +1,145 @@
+.content{
+    border-radius: 3px;
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.content-img-wrap{
+    height: 250px;
+    padding-bottom: .1rem;
+}
+.content-img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 100%;
+    border: 1px solid black;
+}
+.content-details{
+    padding: 5px;
+    height: 100%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid black;
+}
+.content-title{
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 1.0625rem;
+}
+.content-date{
+    font-size: .8rem;
+    font-weight: 400;
+}
+.badge{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    top: -10px;
+}
+.hovered:hover .hover-dataContent{
+    opacity: 1;
+}
+.hover-dataContent{
+    transition: .5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    opacity: 0;
+    color: #d6d6d6;
+}
+.hover-conten{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 .5rem;
+    overflow: hidden;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.hover-title{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: .3rem;
+    line-height: .9rem;
+}
+.text-overview{
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+.hover-overview, .hover-genres,
+.hover-date-release{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.hover-genre{
+    margin-right: 3px;
+    font-size: .8rem;
+}
+.date-release{
+    font-size: .8rem;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .content-img-wrap{
+        height: 290px;
+    }
+    .content-title{
+        font-size: 0.9375rem;
+    }
+    .content-date{
+        font-size: .9rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .content-title{
+        font-size: 1rem;
+    }
+    .content-date{
+        font-size: .9rem;
+    }
+    .hover-title{
+        font-size: 1rem;
+    }
+    .hover-overview, .hover-genres,
+    .hover-genre, .date-release,
+    .hover-date-release, .text-overview
+    {
+        font-size: 0.875rem;
+    }
+}
+@media (min-width: 1200px){
+    .content-img-wrap{
+        height: 300px;
+    }
+    .content-title{
+        font-size: 1rem;
+    }
+    .content-date{
+        font-size: 0.9375rem;
+    }
+    .hover-title{
+        font-size: 1rem;
+    }
+    .hover-overview, .hover-genres,
+    .hover-genre, .date-release,
+    .hover-date-release, .text-overview
+    {
+        font-size: .9rem;
+    }
+}
