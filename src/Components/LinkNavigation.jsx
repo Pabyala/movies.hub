@@ -9,8 +9,9 @@ export default function LinkNavigation() {
   const [value, setValue] = useState(0);
   
   return (
-    <Box>
+    <Box className='box-link'>
       <BottomNavigation
+        className='box-btnNav'
         showLabels
         value={value}
         onChange={(event, newValue) => {
@@ -19,16 +20,19 @@ export default function LinkNavigation() {
         }}
       >
         <BottomNavigationAction 
+          className='links'
           label="Trending"
           LinkComponent={Link}  
           to='/'
         />
         <BottomNavigationAction 
+          className='links'
           label="Movies"  
           LinkComponent={Link}
           to='/movies'
         />
         <BottomNavigationAction 
+          className='links'
           label="TV Series"  
           LinkComponent={Link}
           to='/series'
